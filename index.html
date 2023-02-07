@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9304/9304831.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Portaflio Web</title>
+  </head>
+  <body>
+    <header class="main__header">
+      <a href="index.html"><h1 class="logo">JP</h1></a>
+      <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="toggle__menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="navbar__menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#sobre">Sobre Mi</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- SECCION HERO -->
+      <section class="hero">
+        <div class="container">
+          <article class="hero__flex">
+            <div class="hero__info">
+              <h1>Hola Soy Piervil Jacques <span>Frontend Developer</span></h1>
+              <p>Estoy estudiando programación Front-end en las plataformas de <span class="plataforma">Platzi y Nucba.</span></p>
+              <div class="redes">
+                <a class="hero__icon" href="https://www.linkedin.com/in/jacques-jean-piervil-474b3a191/" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="hero__icon" href="https://github.com/Piervil" target="_blank" title="github"><i class="fa-brands fa-github"></i></a>
+                <a class="hero__icon" href="https://twitter.com/PiervilJean" target="_blank" title="twitter"><i class="fa-brands fa-square-twitter"></i></a>
+              </div>
+              <a class="btn" href="https://drive.google.com/file/d/1HmJ3A-6iHGSXXpKc5Y2exL2zz-_suleS/view?usp=share_link" target="_blank">Descargar CV</a>
+            </div>
+            <picture class="hero__image">
+              <img src="assets/yo.png" alt="imagen de Piervil Jacques">
+            </picture>
+          </article>
+        </div>
+      </section>
+      <!-- SECCION SOBRE MI-->
+      <section class="sobre" id="sobre">
+        <div class="container">
+          <article class="sobre__flex">
+            <img src="assets/Interview.png" alt="imagen de una entrevista">
+            <div class="sobre__info">
+              <h2>Acerca de mi</h2>
+              <p>Estoy aprendiendo programación frontend, que se enfoca en el desarrollo de la interfaz y la experiencia de usuario de un sitio web o aplicación. Esto incluye el uso de lenguajes de marcado como HTML, CSS y JavaScript para crear páginas web atractivas y funcionales. Estoy familiarizado con conceptos importantes como la responsividad, la accesibilidad y la optimización para motores de búsqueda.</p>
+              <a class="btn btn__sobre" href="https://drive.google.com/file/d/1HmJ3A-6iHGSXXpKc5Y2exL2zz-_suleS/view" target="_blank">Descargar CV</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- SECCION HABILIDADES-->
+      <section class="habilidades" id="habilidades">
+        <div class="container">
+          <article class="habilidades__flex">
+            <h2>Mis Habilidades Técnicas</h2>
+            <picture class="habilidades__image">
+              <img src="assets/html.png" alt="logo de html" title="html">
+              <img src="assets/css.png" alt="logo de css" title="css">
+              <img src="assets/javascript.png" alt="logo de javascript" title="javascript">
+              <img src="assets/git.png" alt="logo de javascript" title="git">
+              <img src="assets/github.png" alt="logo de javascript" title="github">
+              <img src="assets/terminal.png" alt="logo de javascript" title="terminal">
+              <img src="assets/shopify.png" alt="logo de shopify" title="shopify">
+              <img src="assets/wordpress.png" alt="logo de wordpress" title="wordpress">
+            </picture>
+          </article>
+        </div>
+      </section>
+      <!-- SECCION PORTAFOLIO-->
+      <section class="portafolio" id="portafolio">
+        <h2>Mi Portafolio</h2>
+        <div class="container">
+          <article class="portafolio__flex">
+            <div class="portafolio__info">
+              <img src="assets/huddle.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+            <div class="portafolio__info">
+              <img src="assets/order.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+            <div class="portafolio__info">
+              <img src="assets/nft.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+            <div class="portafolio__info">
+              <img src="assets/huddle.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+            <div class="portafolio__info">
+              <img src="assets/huddle.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+            <div class="portafolio__info">
+              <img src="assets/huddle.png" alt="imagen de huddle">
+              <h3>Reto Frontend Mentor</h3>
+              <p>Página de destino de Huddle con una sola sección introductoria.</p>
+              <span>HTML</span>
+              <span>CSS</span>
+              <div class="portafolio__btn">
+                <a href="">Ver Sitio</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- SECCION CONTACTO -->
+      <section class="contacto" id="contacto">
+        <div class="container">
+          <article class="contacto__flex">
+            <div class="contacto__left">
+              <img src="assets/phone.png" alt="imagen de alguien que envie mensaje">
+              <p>Llámame</p>
+              <a href="tel:+56972779098" target="_blank">+56972779098</a>
+            </div>
+            <div class="contacto__right">
+              <img src="assets/email.png" alt="imagen de alguien que envie un correo electrónico">
+              <p>Envíame un correo electrónico</p>
+              <a href="mailto:j.piervil@yahoo.com" target="_blank">j.piervil@yahoo.com</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- SECCION FOOTER -->
+    <footer>
+      <div class="container">
+        <article class="footer__flex">
+          <div>
+            <p>Hecho con ❤️ por Piervil Jacques Jean</p>
+          </div>
+          <div>
+            <p>Derechos reservados</p>
+          </div>
+        </article>
+      </div>
+    </footer>
+  </body>
+</html>
