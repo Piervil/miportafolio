@@ -203,6 +203,14 @@ img {
   align-items: center;
 }
 
+.habilidades__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
 .habilidades__image img {
   width: 7rem;
   height: 7rem;
@@ -347,7 +355,7 @@ footer {
   justify-content: space-between;
 }
 
-/* MENU DEL NAVEGACION */
+/* MENU DEL NAVEGACIÓN */
 @media screen and (max-width: 920px) {
   .toggle__menu {
     display: block;
@@ -383,7 +391,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
   .container {
     padding: 0 2rem;
   }  

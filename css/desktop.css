@@ -1,0 +1,45 @@
+.hero__flex {
+  display: flex;
+  flex-direction: row;
+}
+.hero__info h1 {
+  width: 95%;
+  font-size: 5rem;
+  line-height: 6rem;
+  padding-bottom: 2rem;
+}
+.hero__info p {
+  width: 70%;
+  line-height: 2.7rem;
+  padding-bottom: 2.5rem;
+}
+.hero__image img {
+  width: 35rem;
+  margin: 1rem auto;
+}
+
+.sobre__flex {
+  flex-direction: row;
+  gap: 3rem;
+}
+.sobre__info h2 {
+  font-size: 6rem;
+  padding-bottom: 2rem;
+}
+.sobre__info p {
+  line-height: 2.7rem;
+  padding-bottom: 2rem;
+}
+
+.portafolio__info {
+  width: 30rem;
+  margin: 0 1rem;
+  overflow: hidden;
+}
+.portafolio__info img {
+  width: 30rem;
+}
+
+.portafolio__info p {
+  font-size: 1.6rem;
+}
