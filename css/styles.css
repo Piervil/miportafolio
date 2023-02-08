@@ -2,7 +2,7 @@
   --color-blanco: #ffffff;
   --color-negro: #000000;
   --color-head: #0c0236;
-  --color-gris: #adb9c7;
+  --color-gris: #f0f0f0;
   --gris-navbar: #272D37;
   --btn-azul: #1e50ff;
 }
@@ -166,7 +166,7 @@ img {
 }
 
 .sobre__info h2 {
-  background: radial-gradient(circle, rgba(6,15,60,1) 33%, rgba(228,14,57,1) 100%);
+  background: radial-gradient(circle, rgba(6,15,60,1) 13%, rgba(228,14,57,1) 60%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -212,13 +212,13 @@ img {
 }
 
 .habilidades__image img {
-  width: 7rem;
-  height: 7rem;
+  width: 9rem;
+  height: 9rem;
   object-fit: cover;
   background-color: #0c0236;
   border-radius: 20%;
-  padding: 1rem;
-  margin-inline: .7rem;
+  padding: .5rem;
+  margin-inline: .4rem;
   cursor: pointer;
 } 
 
